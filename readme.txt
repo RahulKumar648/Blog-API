@@ -1,18 +1,18 @@
-Step 1:-First, you have to extract the zip file.
-Step 2:-start node server write on terminal npm start
-Setp 3:- Register with this url  POST(localhost:4000/api/auth/register)
+
+Step 1:-start node server write on terminal npm start
+Setp 2:- Register with this url  POST(localhost:4000/api/auth/register)
 		{
     			"username":"",
    			 "email":"",
   			  "Password":""
               }
 	All fields are compulsory to fill while register
-Setep 4:-Login rul  POST(localhost:4000/api/auth/login)
+Setep 3:-Login rul  POST(localhost:4000/api/auth/login)
 		{
     			"username":"",
     			"Password":""
 }
-Step 5:- create a blog url  POST(localhost:4000/api/posts)
+Step 4:- create a blog url  POST(localhost:4000/api/posts)
 		{
     			"username":"",
    			 "title":",
